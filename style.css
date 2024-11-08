@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.Edumem-container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.navbar-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 78%;
+    height: 12%;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-section ul {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.navbar-section ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar-section button {
+    padding: 15px 22px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: orange;
+}
+
+.icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: -10%;
+}
+
+/* first- */
+
+.first-container {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* left-section */
+
+.left-section {
+    border: 2px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+
+
+.off {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: -20px;
+
+
+}
+
+.left-section span {
+    background-color: #f2665f;
+    color: white;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.left-section h3 {
+    font-size: 13px;
+    color: #f2665f;
+    letter-spacing: 1px;
+}
+
+.left-section h1 {
+    font-size: 50px;
+
+    width: 90%;
+}
+
+.left-section p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.527);
+    border-left: 2px solid orange;
+    padding: 0 10px;
+}
+
+
+.button-section {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-1 {
+    padding: 13px 20px;
+    border-radius: 20px;
+    background-color: rgb(50, 190, 113);
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.bi-arrow-right {
+    margin-left: 5px;
+}
+
+.btn-2 {
+    background-color: white;
+    border: none;
+
+}
+
+.bi-play-fill {
+    border-radius: 50%;
+    border: px solid rgba(115, 115, 115, 0.383);
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: orange;
+    font-weight: 500;
+}
+
+
+
+/* right-section */
+
+.right-section {
+    width: 40%;
+    height: 100%;
+    padding: 50px 130px;
+}
+
+.curacubby {
+    width: 450px;
+    margin-top: 50px;
+
+    animation-name:moveout;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    /* transform: rotate(30deg); */
+     
+}
+
+/* second-contaier */
+
+.second-big-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.second-container {
+    width: 85%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+    background-color: rgba(67,131,115,255);
+    margin-top: 80px;
+    gap: 30px;
+
+}
+
+.card-one {
+    width: 350px;
+    height: 390px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: -200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+
+
+}
+
+.card-one img {
+    width: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.card-one h1 {
+    font-size: 23px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.rating {
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.rating span {
+    margin-right: 70px;
+}
+
+.fa-graduation-cap {
+    margin-right: 10px;
+}
